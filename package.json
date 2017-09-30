@@ -1,0 +1,23 @@
+{
+  "name": "run-catch-conquer-api",
+  "version": "1.0.0",
+  "description": "Rest api of the run-catch-conquer app",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Ioannis K. Mousmoutis",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.17.1",
+    "crypto": "0.0.3",
+    "express": "^4.15.2",
+    "jsonwebtoken": "^7.4.0",
+    "mongoose": "^4.9.7",
+    "passport": "^0.3.2",
+    "passport-jwt": "^2.2.1",
+    "passport-local": "^1.0.0",
+    "socket.io": "^1.7.4"
+  }
+}
